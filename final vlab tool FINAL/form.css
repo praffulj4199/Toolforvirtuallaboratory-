@@ -1,0 +1,167 @@
+html{
+	height: 100%;
+}
+
+body{
+	background: linear-gradient(to bottom right, rgba(224, 235, 235,0), rgba(177, 205, 205,1)) fixed;
+	
+}
+
+
+
+#grad {
+  /*height: 100%;*/
+  /*background-color: blue*/
+  background: linear-gradient(to bottom right, rgba(224, 235, 235,0), rgba(177, 205, 205,1));
+}
+
+.disabled{
+	display: none;
+}
+
+.logos{
+	height: 15%;
+	background-color: #e1eaea;
+	/*background-color: rgba(255,255,255,0);*/
+}
+
+#vlabphoto{
+	height: 100%;
+}
+
+.logos img{
+	height: 50%;
+	width: 15%;
+}
+
+.progressBar{
+	top:15%;
+	height: 20%;
+	background-color: #e1eaea;
+	border-radius: 5px;
+}
+
+/*.card{
+	margin-bottom: 10px;
+}
+*/
+.is{
+	display: none;
+}
+
+.currentIS{
+	display: block;
+}
+
+.containerMain{
+	/*background-color: #232323;*/
+	/*overflow: scroll;*/
+	/*bottom: 20%;*/
+	width:100%;
+	height: 100%;
+	margin: 0px 0px 0px 0px;
+	/*background-color: rgba(255,255,255,0);*/
+
+}
+
+
+.progress{
+	/*border-radius: 20px;*/
+	/*position: fixed;*/
+	top: 0;
+	height: 20%;
+	width: 100%;
+	padding: 20px;
+	z-index: 1;
+	/*background-color: rgba(255,255,255,0);*/
+}
+
+
+.step{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	background-color: blue;
+	width:8%;
+	height: 100%;
+	/*line-height: 100%;*/
+	margin: 0% 1% 0% 1%;
+	padding-bottom: 10px;
+	padding-left: 1em;
+	border-radius: 20px;
+	transition-duration: 1s;
+}
+
+.content{
+	/*margin-top:10%;*/
+	/*overflow: scroll;*/
+	/*margin-top: 20%;*/
+	background-color: rgba(255,255,255,0);
+	padding-top: 0%;
+	/*float: left;*/
+	width: 100%;
+	/*display: none;*/
+	height: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 100px;
+	/*margin-bottom: 20vh;*/
+}
+
+.remaining{
+	background: rgba(0,83,135, 0.6);
+}
+
+.completed{
+	background:#5ecc62;
+}
+
+.currentStep{
+	overflow:hidden;
+	display: block;
+	transition-duration: 1s;
+}
+
+.buttons{
+	position: relative;
+	margin-top: 10%; 
+	width: 100%;
+	z-index: 1;
+}
+
+.current{
+	background:rgb(255, 51, 51);
+}
+
+.notReadMore{
+	content: "";
+}
+
+
+
+.summary div.collapse:not(.show) {
+    height: 42px !important;
+    overflow: hidden;
+  
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+}
+
+.summary div.collapsing {
+    min-height: 42px !important;
+}
+
+.summary a.collapsed:after  {
+    content: '+ Read More';
+}
+
+.summary a:not(.collapsed):after {
+    content: '- Read Less';
+}
+
+pre{
+font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+font-size: 1em;
+}
